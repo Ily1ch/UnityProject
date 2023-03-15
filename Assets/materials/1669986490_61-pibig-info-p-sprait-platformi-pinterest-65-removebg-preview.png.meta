@@ -1,0 +1,388 @@
+fileFormatVersion: 2
+guid: a6d5794b19a15ab468d81ffa045c29f7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 1669986490_61-pibig-info-p-sprait-platformi-pinterest-65-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 307
+        width: 205
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b46075272888924bb4dca65cc1c82c8
+      internalID: -1156463958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669986490_61-pibig-info-p-sprait-platformi-pinterest-65-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 305
+        width: 206
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03445578d9f41b648b86072be7c67208
+      internalID: -213855357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669986490_61-pibig-info-p-sprait-platformi-pinterest-65-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 300
+        width: 204
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d65a1de1a7a5943b9befb9d47c7f88
+      internalID: -1939850451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669986490_61-pibig-info-p-sprait-platformi-pinterest-65-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 213
+        width: 206
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8966141b7ab9d6241a954e7f21811ca1
+      internalID: 2133725976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669986490_61-pibig-info-p-sprait-platformi-pinterest-65-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 199
+        width: 206
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f7061b385165444a3998310a4a019e
+      internalID: -945791538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669986490_61-pibig-info-p-sprait-platformi-pinterest-65-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 209
+        width: 208
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce70d991296d7f46aec77c9e14c0e4b
+      internalID: 1327393242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669986490_61-pibig-info-p-sprait-platformi-pinterest-65-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 117
+        width: 206
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f96001038715f341a5b721f4a09c550
+      internalID: 56400715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669986490_61-pibig-info-p-sprait-platformi-pinterest-65-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 112
+        width: 204
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633c771dc3f88a043b24957c259911c5
+      internalID: 764022471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669986490_61-pibig-info-p-sprait-platformi-pinterest-65-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 131
+        width: 206
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37995dbd48c29c4cb4a284ad77b11d3
+      internalID: 1320622144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669986490_61-pibig-info-p-sprait-platformi-pinterest-65-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 34
+        width: 206
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f27542827c89444943fc491d71787a
+      internalID: -96048463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669986490_61-pibig-info-p-sprait-platformi-pinterest-65-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 46
+        width: 208
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019c55a5ebb7d20489bf7b8da6813bec
+      internalID: 1540003036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1669986490_61-pibig-info-p-sprait-platformi-pinterest-65-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 46
+        width: 208
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ca05bbc82070a459f3c9a7290710de
+      internalID: 2129257240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      1669986490_61-pibig-info-p-sprait-platformi-pinterest-65-removebg-preview_0: -1156463958
+      1669986490_61-pibig-info-p-sprait-platformi-pinterest-65-removebg-preview_1: -213855357
+      1669986490_61-pibig-info-p-sprait-platformi-pinterest-65-removebg-preview_10: 1540003036
+      1669986490_61-pibig-info-p-sprait-platformi-pinterest-65-removebg-preview_11: 2129257240
+      1669986490_61-pibig-info-p-sprait-platformi-pinterest-65-removebg-preview_2: -1939850451
+      1669986490_61-pibig-info-p-sprait-platformi-pinterest-65-removebg-preview_3: 2133725976
+      1669986490_61-pibig-info-p-sprait-platformi-pinterest-65-removebg-preview_4: -945791538
+      1669986490_61-pibig-info-p-sprait-platformi-pinterest-65-removebg-preview_5: 1327393242
+      1669986490_61-pibig-info-p-sprait-platformi-pinterest-65-removebg-preview_6: 56400715
+      1669986490_61-pibig-info-p-sprait-platformi-pinterest-65-removebg-preview_7: 764022471
+      1669986490_61-pibig-info-p-sprait-platformi-pinterest-65-removebg-preview_8: 1320622144
+      1669986490_61-pibig-info-p-sprait-platformi-pinterest-65-removebg-preview_9: -96048463
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
