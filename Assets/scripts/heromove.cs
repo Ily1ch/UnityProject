@@ -22,7 +22,10 @@ public class heromove : MonoBehaviour // - Вместо «PlayerMove» должно быть имя ф
         CheckingGround();
         Dash();
         Somersault();
-        Atack();
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            Atack();
+        }
     }
     //------- Функция/метод для перемещения персонажа по горизонтали ---------
     public Vector2 moveVector;
@@ -70,6 +73,7 @@ public class heromove : MonoBehaviour // - Вместо «PlayerMove» должно быть имя ф
     }
     //-----------------------------------------------------------------
 
+    //------- Функция/метод для рывка ---------
     public int dashForce = 1000;
     public float dashCooldown = 1f; // время перезарядки в секундах
     private float lastDashTime = -Mathf.Infinity; // время последнего использования способности
@@ -95,6 +99,7 @@ public class heromove : MonoBehaviour // - Вместо «PlayerMove» должно быть имя ф
             lastDashTime = Time.time; // устанавливаем время последнего использования способности
         }
     }
+    //------- Функция/метод для кувырка ---------
     public int SomersaultForce = 1000;
     public float SomersaultCooldown = 1f; // время перезарядки в секундах
     private float lastSomersaultTime = -Mathf.Infinity; // время последнего использования способности
@@ -120,12 +125,41 @@ public class heromove : MonoBehaviour // - Вместо «PlayerMove» должно быть имя ф
             lastSomersaultTime = Time.time; // устанавливаем время последнего использования способности
         }
     }
+    //------- Функция/метод для атаки ---------
+    public Transform attackPoint;
+    public LayerMask enemyLayers;
+
+    public float attackRange = 0.5f;
+    public int attackDamage = 10;
+    
     void Atack()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        anim.SetTrigger("Atack");
+
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+
+        foreach (Collider2D enemy in hitEnemies)
         {
-            anim.StopPlayback();
-            anim.Play("atack1");
+            enemy.GetComponent<Enemy>().TakeDamage(attackDamage);
         }
     }
+    void OnDrawGizmosSelected()
+    {
+        if (attackPoint == null)
+            return;
+        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+    }
 }
+
+
+//void Update()
+//{
+//    if (Input.GetKeyDown(KeyCode.Mouse0))
+//    {
+//        Atack();
+//    }
+//}
+//void Atack()
+//{
+//    anim.SetTrigger("Atack");
+//}
