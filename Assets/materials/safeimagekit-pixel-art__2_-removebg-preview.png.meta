@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: dbe01067da91fb64d93e151ac6135ca0
+guid: 360783f0710288940b2c6fc16974d77d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -105,7 +105,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: safeimagekit-pixel-art__2_-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 386
+        width: 433
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a90608b3bf60b49b640c833242c4b8
+      internalID: 142707449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: safeimagekit-pixel-art__2_-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 274
+        width: 292
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6032bc7ddfe1e504da9d299c43282ac6
+      internalID: 821526982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: safeimagekit-pixel-art__2_-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 161
+        width: 201
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da07a029159a5be488322881fb4d6df8
+      internalID: 1295643983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: safeimagekit-pixel-art__2_-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 44
+        width: 260
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c9ff668ecd53541b4322af6688b171
+      internalID: 1331829846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -116,7 +200,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      safeimagekit-pixel-art__2_-removebg-preview_0: 142707449
+      safeimagekit-pixel-art__2_-removebg-preview_1: 821526982
+      safeimagekit-pixel-art__2_-removebg-preview_2: 1295643983
+      safeimagekit-pixel-art__2_-removebg-preview_3: 1331829846
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
