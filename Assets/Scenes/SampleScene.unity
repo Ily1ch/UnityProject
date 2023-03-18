@@ -3446,7 +3446,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -25.734665, y: -55.338684, z: -2.3134184}
+  m_LocalPosition: {x: -25.73819, y: -55.338684, z: -2.3134184}
   m_LocalScale: {x: 0.7635409, y: 0.8367571, z: 0.8367571}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10567,6 +10567,7 @@ GameObject:
   - component: {fileID: 1636760339}
   - component: {fileID: 1636760338}
   - component: {fileID: 1636760337}
+  - component: {fileID: 1636760342}
   m_Layer: 8
   m_Name: Enemy (1)
   m_TagString: Untagged
@@ -10586,6 +10587,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0571906fe5b976640b710e874d29ea5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 0}
   maxHealth: 100
 --- !u!61 &1636760338
 BoxCollider2D:
@@ -10719,13 +10721,33 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1636760336}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16.62, y: -53.64, z: 1.6270516}
+  m_LocalPosition: {x: -16.62, y: -53.64, z: 1.627052}
   m_LocalScale: {x: 2.4573, y: 2.2656, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1636760342
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1636760336}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3f5ef70b814757e47914dacf73791965, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1639587888
 GameObject:
   m_ObjectHideFlags: 0
