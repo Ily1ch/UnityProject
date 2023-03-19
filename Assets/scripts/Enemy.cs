@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+<<<<<<< HEAD
 using UnityEngine.AI;
 
 public class Enemy : MonoBehaviour
@@ -55,6 +56,18 @@ public class Enemy : MonoBehaviour
             enemy.GetComponent<Enemy>().TakeDamage(attackDamage);
         }
         Debug.Log("Enemy attacked player for " + attackDamage + " damage.");
+=======
+using UnityEditor;
+
+public class Enemy : MonoBehaviour
+{
+    public Animator anim;
+    public int maxHealth = 100;
+    int currentHealth;
+    void Start()
+    {
+        currentHealth = maxHealth;
+>>>>>>> ecb4df9b0c1b1cde64df92d49f9588a17d655f5b
     }
     void OnDrawGizmosSelected()
     {
@@ -74,8 +87,21 @@ public class Enemy : MonoBehaviour
 
     void Die()
     {
+<<<<<<< HEAD
         animator.Play("Die");
         //animator.SetBool("Die", true);
         Destroy(this.gameObject,1f);
     }
 }
+=======
+        anim.StopPlayback();
+        anim.Play("Death");
+        Debug.Log("Dead!!!");
+        Destroy(this.gameObject);
+        //this.enabled = false;
+        //GetComponent<Collider2D>().enabled = false;
+        
+    }
+
+} 
+>>>>>>> ecb4df9b0c1b1cde64df92d49f9588a17d655f5b

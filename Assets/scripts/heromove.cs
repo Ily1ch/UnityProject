@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
+
 public class heromove : MonoBehaviour // - Вместо «PlayerMove» должно быть имя файла скрипта
 {
     //------- Функция/метод, выполняемая при запуске игры ---------
