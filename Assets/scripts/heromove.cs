@@ -6,10 +6,16 @@ using UnityEditor;
 public class heromove : MonoBehaviour // - Вместо «PlayerMove» должно быть имя файла скрипта
 {
     //------- Функция/метод, выполняемая при запуске игры ---------
+
+    public int maxHealth = 100;
+    public int currentHealth;
+
     public Rigidbody2D rb;
     public Animator anim;
     void Start()
     {
+        currentHealth = maxHealth;
+
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         //-v- Для автоматического присваивания в переменную, радиуса коллайдера объекта «GroundCheck»
@@ -127,6 +133,17 @@ public class heromove : MonoBehaviour // - Вместо «PlayerMove» должно быть имя ф
             lastSomersaultTime = Time.time; // устанавливаем время последнего использования способности
         }
     }
+
+    public void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+
+        if (currentHealth <= 0)
+        {
+            Debug.Log("Персонаж метв!");
+        }
+    }
+
     //------- Функция/метод для атаки ---------
     public Transform attackPoint;
     public LayerMask enemyLayers;
@@ -152,16 +169,3 @@ public class heromove : MonoBehaviour // - Вместо «PlayerMove» должно быть имя ф
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
 }
-
-
-//void Update()
-//{
-//    if (Input.GetKeyDown(KeyCode.Mouse0))
-//    {
-//        Atack();
-//    }
-//}
-//void Atack()
-//{
-//    anim.SetTrigger("Atack");
-//}
